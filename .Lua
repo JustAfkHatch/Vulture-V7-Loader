@@ -2,14 +2,14 @@
 
 local Library = loadstring(game:HttpGet('https://raw.githubusercontent.com/VisualRoblox/Roblox/main/UI-Libraries/Visual%20UI%20Library/Source.lua'))()
 
-local Window = Library:CreateWindow('Vulture V7.0.5 Loader', 'Vulture Loader', 'Visual UI Library', 'rbxassetid://10618928818', false, 'VisualUIConfigs', 'Default')
+local Window = Library:CreateWindow('Vulture V7.0.6 Loader', 'Vulture Loader', 'Vulture V7', 'rbxassetid://10618928818', false, 'VisualUIConfigs', 'Default')
 
 local Tab = Window:CreateTab('Tab', true, 'rbxassetid://3926305904', Vector2.new(524, 44), Vector2.new(36, 36))
 
 local Section = Tab:CreateSection('Load My Script')
 
-local Button = Section:CreateButton('V7.0.5 (Updated One)', function()
--- Vulture V7.0.5
+local Button = Section:CreateButton('V7.0.6 (Up To Update)', function()
+-- Vulture V7.0.6
 Library:DestroyUI()
 
 local NotificationHolder = loadstring(game:HttpGet("https://raw.githubusercontent.com/BocusLuke/UI/main/STX/Module.Lua"))()
@@ -1982,11 +1982,15 @@ LeftGroupBox:AddDivider()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/XRoLLu/Rolly_Hub/main/open-source-trash-loader.exe.yeah"))()
     end)
 
-	local LeftGroupBox = Tabs.GH:AddLeftGroupbox('------------ Game Hub -----------')
-	local MyButton = LeftGroupBox:AddButton('🟢One Punch Fighters Gui', function()
-		loadstring(game:HttpGet("https://raw.githubusercontent.com/LOLking123456/sooptest33/main/keyyone"))()
+	local LeftGroupBox = Tabs.GH:AddLeftGroupbox('------ One Punch Fighters -------')
+	local MyButton = LeftGroupBox:AddButton('🟢Bunnyw', function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/_w"))()
 	end)
-	local MyButton = LeftGroupBox:AddButton('🟢Bunnyw (OPF) (PS)', function()
+    local MyButton = LeftGroupBox:AddButton('🟢SoggyWare', function()
+		loadstring(game:HttpGet("https://pastebin.com/raw/NqebC8eQ"))()
+	end)
+    local LeftGroupBox = Tabs.GH:AddLeftGroupbox('---------- Pickaxe Sim ----------')
+    local MyButton = LeftGroupBox:AddButton('🟢Bunnyw', function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/bunnynwy/games/main/_w"))()
 	end)
     local MyButton = LeftGroupBox:AddButton('🟢Pickaxe Simulator Gui', function()
@@ -1998,22 +2002,56 @@ LeftGroupBox:AddDivider()
     local MyButton = LeftGroupBox:AddButton('🟢Dropdown Gui', function()
         loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/loadstringloaderyes.lua"))()
     end)
-    local MyButton = LeftGroupBox:AddButton('🟢VexBolt Hub', function()
-        loadstring(game:HttpGet("https://pastebin.com/raw/DN7fKmKk"))()
+    local LeftGroupBox = Tabs.GH:AddLeftGroupbox('------- Slime Tower Tycoon ------')
+    local MyButton = LeftGroupBox:AddButton('🟢Bread Loader', function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/GhostDuckyy/Bread/main/Loader/source.lua"))()
     end)
-	local MyButton = LeftGroupBox:AddButton('🟢ScriptBlox and RbxScripts Searcher', function()
+    local MyButton = LeftGroupBox:AddButton('🟢Extreme Hub', function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ExtremeAntonis/KeySystemUI/main/KeySystemUI-Obfuscated.lua"))()
+    end)
+    local MyButton = LeftGroupBox:AddButton('🟢Destiny', function()
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/itsnoctural/Destiny/main/loader.lua",true))()
+	end)
+    local MyButton = LeftGroupBox:AddButton('🟢DropDown Gui', function()
+        loadstring(game:HttpGet('https://raw.githubusercontent.com/ItoshiTeruz/scripts/main/SlimeTowerTycoon'))()
+    end)
+    local MyButton = LeftGroupBox:AddButton('🟢Slime Hunter', function()
+		loadstring(game:HttpGet('https://raw.githubusercontent.com/LiquidHubMain/SlimeHunter/main/ImSoGoodwtf'))()
+	end)
+    local MyButton = LeftGroupBox:AddButton('🟢ToraIsMe2 Gui', function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/ToraIsMe2/ToraIsMe2/main/0slime", true))()
+    end)
+    local MyButton = LeftGroupBox:AddButton('🟢Dropdown Gui', function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/Pikaruru/Scripts/main/loadstringloaderyes.lua"))()
+    end)
+    local LeftGroupBox = Tabs.GH:AddLeftGroupbox('------ Farm Factory Tycoon ------')
+    local MyButton = LeftGroupBox:AddButton('🟢OP Gui', function()
+        loadstring(game:HttpGet("https://raw.githubusercontent.com/AviraManager/roblox-scripts/main/farm-factory-tycoon", true))()
+    end)
+    local RightGroupBox = Tabs.GH:AddRightGroupbox('---------- Epic Scripts ---------')
+    local MyButton = RightGroupBox:AddButton('🟢Simple Spy V2', function()
+        loadstring(game:HttpGet("https://github.com/exxtremestuffs/SimpleSpySource/raw/master/SimpleSpy.lua"))()
+    end)
+	local MyButton = RightGroupBox:AddButton('🟢ScriptBlox and RbxScripts Searcher', function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/JustAfkHatch/Universal-search-scripts/Roblox_Script/.Lua",true))()
 	end)
-	local MyButton = LeftGroupBox:AddButton('🟢ScriptHub -- WheatHub', function()
+	local MyButton = RightGroupBox:AddButton('🟢ScriptHub -- WheatHub', function()
 		loadstring(game:HttpGet("https://raw.githubusercontent.com/MaGiXxScripter/wheathub/main/scripts"))()
 	end)
+	local MyButton = LeftGroupBox:AddButton('🟢Unfair Hub', function()
+        loadstring(game:HttpGet(('https://raw.githubusercontent.com/rblxscriptsnet/unfair/main/rblxhub.lua'),true))()
+    end)
+    local MyButton = LeftGroupBox:AddButton('🟢Nuke City Loader', function()
+    	_G.key = "iloverobucs"
+		loadstring(game:HttpGet("https://raw.githubusercontent.com/NukeVsCity/TheALLHACKLoader/main/NukeLoader"))()
+    end)
 
       -- Library functions
     -- Sets the watermark visibility
     Library:SetWatermarkVisibility(true)
 
     -- Sets the watermark text
-    Library:SetWatermark('Using Vulture V7.0.5ab') -- Set WaterMark To Public If V5
+    Library:SetWatermark('Using Vulture V7.0.6ab') -- watermark
 
     Library:OnUnload(function()
         Library.Unloaded = true
